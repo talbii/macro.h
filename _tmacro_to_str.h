@@ -1,5 +1,5 @@
-#ifndef TMACROi_TO_STR_H
-#define TMACROi_TO_STR_H
+#ifndef TMACROi_H_TO_STR /*i: internal; include "utils.h" instead*/
+#define TMACROi_H_TO_STR
 #define tmacro__token_to_string(x) #x
 #define TO_STR(x) tmacro__token_to_string(x)
-#endif
+#endif /*TMACROi_H_TO_STR*/

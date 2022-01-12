@@ -11,4 +11,7 @@
 #define UnitTest
 #define Test
 
+#define Positive
+#define Nonnegative
+
 #endif /*TMACRO_H_ANNOT*/

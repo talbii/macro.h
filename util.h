@@ -8,5 +8,6 @@
 #define comment(...)
 #define fptr(RETURN_VAL, ptr_name, ...) RETURN_VAL (*ptr_name)(__VA_ARGS__)
 #include "_tmacro_to_str.h" 
+#include "_tmacro_paste_token.h"
 
 #endif /*TMACRO_H_UTIL*/

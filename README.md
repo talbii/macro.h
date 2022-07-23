@@ -4,5 +4,5 @@
 
 - To include **all** of the macros (note: there are a lot of macros and you will probably experience a lot of global names taken), include `macro.h`.
 
-- Otherwise, search for the macros needed and import those files instead.
+- Otherwise, search for the macros needed and include those files instead.
 
